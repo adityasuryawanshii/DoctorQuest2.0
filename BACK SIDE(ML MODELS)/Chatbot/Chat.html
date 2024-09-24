@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chat.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: "Jockey One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+
+</head>
+
+<body class="show-chatbot">
+    <button class="chatbot-toggler">
+        <span class="material-icons-outlined">mode_comment</span>
+        <span class="material-icons-outlined">close</span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h1>DQ-Bot</h1>
+
+        </header>
+
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-icons-outlined">smart_toy</span>
+                <p>Hi There<br>How can i help you?</p>
+            </li>
+            <li class="chat outgoing">
+                <span class="material-icons-outlined">person</span>
+                <p>Looking for what ?</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Type Here"></textarea>
+            <span class="material-icons-outlined" id="send-btn">send</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
